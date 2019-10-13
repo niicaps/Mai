@@ -26,14 +26,4 @@ client.on('message', async message => {
 });
 client.login(process.env.BOT_TOKEN)
 
-var activityDoing = [
-    "Am I spooky yet?",
-    "Carving pumpkins",
-]
-
-var activityType = [
-    "PLAYING",
-    "STREAMING",
-    "WATCHING",
-    "LISTENING"
-]
+await client.change_status(game=discord.Game(name='Mai'))
