@@ -28,3 +28,5 @@ client.login(process.env.BOT_TOKEN)
 
 var activityDoing = [
     "Am I spooky yet?",
+    "Carving pumpkins",
+]
