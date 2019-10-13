@@ -20,8 +20,7 @@ client.on('message', async message => {
         switch (args[0]) {
             case 'ping':
         message.channel.send('Pong!')
-        break;
-           
+        break;   
     }
 
 });
