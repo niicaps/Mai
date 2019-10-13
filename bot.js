@@ -21,6 +21,12 @@ client.on('message', async message => {
             case 'ping':
         message.channel.send('Pong!')
         break;
+                
+        switch (args[0]) {
+            case 'uwu':
+        message.channel.send('owo?')
+        break;
+
     }
 
 });
