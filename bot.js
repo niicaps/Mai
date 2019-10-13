@@ -30,3 +30,10 @@ var activityDoing = [
     "Am I spooky yet?",
     "Carving pumpkins",
 ]
+
+var activityType = [
+    "PLAYING",
+    "STREAMING",
+    "WATCHING",
+    "LISTENING"
+]
