@@ -18,8 +18,8 @@ client.on('message', async message => {
 
 
         switch (args[0]) {
-            case 'OwO':
-        message.channel.send('UwU')
+            case 'owo':
+        message.channel.send('owo what's this?')
         break;   
     }
 
