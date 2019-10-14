@@ -18,8 +18,8 @@ client.on('message', async message => {
 
 
         switch (args[0]) {
-            case 'ping':
-        message.channel.send('Pong!')
+            case 'OwO':
+        message.channel.send('UwU')
         break;   
     }
 
